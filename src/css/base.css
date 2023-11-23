@@ -1,0 +1,84 @@
+.main-body {
+    background: black;
+    font-family: 'Kurale', serif;
+    font-size: 25px;
+}
+
+.menu-header {
+    font-family: 'Kurale', serif;
+    font-size: 25px;
+    height: auto;
+    background-color: black;
+}
+
+.menu-header a {
+    font-family: 'Kurale', serif;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    line-height: 1;
+    border-bottom: 1px dotted #666;
+}
+
+.menu-header a.active {
+    color: rgba(255, 172, 30, 0.99);
+}
+
+.menu-header a:hover {
+    color: rgba(255, 172, 30, 0.99);
+}
+
+
+.line {
+    padding: 10px 50px;
+}
+
+.site-footer {
+    min-width: 550px;
+    background-color: black;
+    font-family: 'Kurale', serif;
+    font-size: 25px;
+    height: auto;
+    text-align: center;
+}
+
+.site-footer p {
+    color: white;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+
+.main-content {
+    background-image: url("../res/images/login-background.jpg");
+    background-color: grey;
+    color: black;
+    padding: 0 20px;
+}
+.add-game-page-content {
+    background-image: url("../res/images/login-background.jpg");
+    background-color: grey;
+    color: black;
+    padding: 0 20px;
+}
+
+.main-content h1 {
+    text-align: center;
+}
+.main-content h2 {
+    text-align: center;
+}
+.main-content a {
+    text-align: center;
+    display: block;
+    color: black;
+}
+
+.main-content a:hover {
+    color: rgba(255, 172, 30, 0.99);
+}
+
+.clickable:hover {
+    cursor: pointer;
+    background-color: #505050;
+    color: white;
+}
