@@ -1,0 +1,17 @@
+.login-body {
+    /*height: 100vh;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("https://i.ibb.co/9NJrNy2/61fc214c59109138319491.jpg") no-repeat;
+    background-size: cover;
+}
+
+.login-form {
+    background: white;
+    width: 30%;
+    color: black;
+    text-align: center;
+    margin: 200px 200px;
+    border: black 5px solid;
+}

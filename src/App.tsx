@@ -1,15 +1,12 @@
 import React from 'react';
 import './App.css';
-import {LoginForm} from "./components/LoginForm";
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import {Login} from './pages/Login';
 
+const App: React.FC = () => {
+    return (
+                <Login />
+    );
+};
 
-
-export default function MyApp() {
-  return (
-      <div>
-        <h1>Welcome to my app</h1>
-        <LoginForm />
-      </div>
-  );
-}
-
+export default App;
